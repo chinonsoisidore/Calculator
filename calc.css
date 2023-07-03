@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(93, 96, 231);
+    width: 100%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+#container {
+    background-color: white;
+    display: grid;
+    height: 70%;
+    width: 30%;
+    grid-template-columns: 1fr;
+    justify-content: center;
+}
+.row1 {
+    display: grid;
+    justify-content: right;
+    padding-right: 10px;
+    color: white;
+    background-color: black;
+}
+
+.row2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    margin-bottom: 3px;
+}
+
+.row3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 3px;
+}
+.row4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.row2 .para, .row3 .para, .row4 .para{
+    background-color: rgb(223, 217, 217);
+   margin-right: 2px;
+   justify-content: center;
+   text-align: center;
+}
+
+.row2 .para1, .row3 .para1,.row4 .para1 {
+    background-color: rgb(223, 217, 217);
+    justify-content: center;
+   text-align: center;
+}
+
+.number9 {
+    background-color: white;
+    justify-content: center;
+   text-align: center;
+}
